@@ -1,0 +1,171 @@
+/* TODO: design your profile with CSS */
+body {
+  background-color: rgb(240, 240, 240);
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: rgb(100, 100, 100);
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.header {
+  text-align: center;
+  background-color: white;
+  width: 45vw;
+  margin: auto;
+  padding-bottom: 35px;
+  border: 1px solid rgba(100, 100, 100, 0.2);
+}
+
+.header img {
+  margin-top: 20px;
+  border-radius: 50%;
+  border: 1px solid rgba(50, 50, 50, 0.7);
+}
+
+.header h1 {
+  font-family: 'Raleway', sans-serif;
+  color: rgb(217, 96, 73);
+  font-weight: bolder;
+}
+
+.header p {
+  padding: 15px;
+}
+
+
+.btn-main {
+  background-color: rgba(217, 96, 73, 0.8);
+  padding: 15px;
+  border: 1px, solid, black;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+}
+
+.btn-main:hover {
+  background-color: rgba(217, 96, 73, 1);
+  padding: 15px;
+  border: 1px, solid, black;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+}
+
+.social {
+  text-align: center;
+  background-color: white;
+  width: 45vw;
+  height: 70px;
+  margin: 30px auto;
+  padding: 15px 0;
+  border: 1px solid rgba(100, 100, 100, 0.2);
+}
+
+.social ul {
+  padding: 0;
+  margin: 10px auto;
+  display: block;
+}
+
+.social li {
+  margin: auto;
+  display: inline;
+  margin: 0 30px;
+}
+
+.social li a {
+  text-decoration: none;
+  font-size: 30px;
+  color: grey;
+}
+
+.social li a:hover {
+  text-decoration: none;
+  font-size: 30px;
+  color: rgba(217, 96, 73, 1);
+}
+
+.movies {
+  text-align: center;
+/*  padding: 15px;*/
+  background-color: white;
+  width: 45vw;
+  margin: auto;
+  border: 1px solid rgba(100, 100, 100, 0.2);
+}
+
+.movies table {
+  padding: 30px;
+}
+
+.movies img {
+  margin: 15px auto;
+}
+
+.movies h2 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bolder;
+  color: rgb(217, 96, 73);
+}
+
+.movies p {
+  font-weight: lighter;
+  color: rgb(100, 100, 100);
+}
+
+.footer {
+  text-align: center;
+  background-color: white;
+  width: 45vw;
+  margin: auto;
+  border: 1px solid rgba(100, 100, 100, 0.2);
+  margin: 30px auto;
+}
+
+.footer h2 {
+  font-family: 'Raleway', sans-serif;
+  color: rgb(217, 96, 73);
+}
+
+.footer ul {
+  margin-left: none;
+  padding-left: none;
+}
+
+.footer li {
+ display: inline-block;
+}
+
+.footer li a {
+ font-size: 30px;
+ color: grey;
+ letter-spacing: 40px;
+}
+
+.footer a {
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: none;
+  color: rgba(217, 96, 73, 1);
+}
